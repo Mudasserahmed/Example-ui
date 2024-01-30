@@ -64,3 +64,8 @@
     cursor: pointer;
     
   }
+  .footer-main{
+    padding:10px 10px 10px 10px;
+    background-color:#F1F3F4 ;
+    margin-top: 10rem ;
+  }
