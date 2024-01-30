@@ -1,0 +1,41 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 16px;
+    width: 15rem;
+    height: 15rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+  .card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  .cardImage {
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    /* position: absolute; */
+    right: 100;
+    margin-left: 1rem;
+    margin-top: 20px;
+    margin-right: 100px;
+    top: 2;
+  }
+  
+  .cardContent {
+    padding-left: 2rem;
+  }
+  
+  .cardTitle {
+    font-size: 20px;
+  }
+  
+  .cardDescription {
+    font-size: 15px;
+    color: #787272;
+  }
+  

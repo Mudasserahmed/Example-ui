@@ -2,7 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0rem 2rem 0rem 2rem
+  padding: 1rem;
+  margin: 0rem 2rem 0rem 2rem;
+  
 }
 .logoText{
   font-size: 30px;
@@ -20,9 +22,11 @@
 .loginText{
   color: gray;
 }
-.loginContainer:hover{
+.loginText:hover{
   cursor: pointer;
+  transform: scale(1.05);
 }
+
 .signUpButton{
   border: none;
   background-color: #4866E2;
@@ -36,4 +40,5 @@
 }
 .signUpButton:hover{
   cursor: pointer;
+  transform: scale(1.05);
 }

@@ -1,0 +1,15 @@
+.main{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    grid-column: 1;
+}
+.main p {
+    color: #5e6367;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main p:hover{
+    cursor: pointer;
+    color: #84888b;
+}
