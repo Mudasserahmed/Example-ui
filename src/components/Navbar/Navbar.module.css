@@ -1,0 +1,39 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0rem 2rem 0rem 2rem
+}
+.logoText{
+  font-size: 30px;
+  font-weight: bold;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.loginContainer{
+  display: flex;
+  align-items: center;
+  gap: 2rem;  
+}
+.loginText{
+  color: gray;
+}
+.loginContainer:hover{
+  cursor: pointer;
+}
+.signUpButton{
+  border: none;
+  background-color: #4866E2;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 20px;
+  height: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.signUpButton:hover{
+  cursor: pointer;
+}

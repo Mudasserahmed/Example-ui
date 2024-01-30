@@ -1,0 +1,26 @@
+/* styles/SearchComponent.module.css */
+
+.container {
+  position: relative;
+  width: 40rem; 
+  margin: 20px;
+  border: none;
+}
+
+.searchInput {
+  background-color: #F2F2F2;
+  width: 100%;
+  padding: 20px;
+  font-size: large;
+  border: none;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
