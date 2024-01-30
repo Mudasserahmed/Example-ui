@@ -18,10 +18,10 @@ export default function Home() {
         <Navbar />
         <NavBottom />
       </nav>
-      <main>
-        <div className="card-container">
-          <h1>Your BookMarks</h1>
-          <div style={{ display: "flex" }}>
+      <main className="main">
+        <div className="">
+          <h1 style={{ marginLeft: "5rem" }}>Your BookMarks</h1>
+          <div className="card-container" >
             <Card
               title={"Edit PDF"}
               description={"some Description here "}
@@ -52,10 +52,12 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="card-container1">
+        <div >
+          <div className="handle-all"> 
           <h1 style={{ marginLeft: "5rem" }}>Convert From PDF</h1>
           <button className="all-button">{"All >"}</button>
-          <div style={{ display: "flex" }} className="content-container">
+          </div>
+          <div  className="card-container1">
             <div className="arrow">
               <img
                 width={"40rem"}
@@ -97,9 +99,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="card-container2">
-          <h1>Convert From PDF</h1>
-          <div style={{ display: "flex" }} className="content-container">
+        <div className="">
+          <h1 style={{ marginLeft: "5rem" }}>Convert From PDF</h1>
+          <div className="card-container2">
             <Card
               title={"Edit PDF"}
               description={"some Description here "}
@@ -127,9 +129,9 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="card-container3">
-          <h1>Convert From PDF</h1>
-          <div style={{ display: "flex" }} className="content-container">
+        <div className="">
+          <h1 style={{ marginLeft: "5rem" }}>Convert From PDF</h1>
+          <div  className="card-container3">
             <Card
               title={"Edit PDF"}
               description={"some Description here "}
